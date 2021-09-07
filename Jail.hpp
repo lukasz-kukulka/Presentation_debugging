@@ -1,7 +1,10 @@
+#pragma once
+
 #include <vector>
 #include <memory>
 #include <list>
 
+#include "Person.hpp"
 #include "Prisoner.hpp"
 #include "Guard.hpp"
 
@@ -15,5 +18,4 @@ private:
     int posY_;
     std::vector<std::shared_ptr<Prisoner>>prisoners_;
     std::list<std::shared_ptr<Prisoner>>guards_;
-
 };

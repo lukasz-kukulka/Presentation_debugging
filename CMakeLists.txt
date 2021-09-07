@@ -4,7 +4,8 @@ project(presentation)
 set(FILES
     Jail.cpp
     Prisoner.cpp
-    Guard.cpp)
+    Guard.cpp
+    Person.cpp)
 
 add_library(${PROJECT_NAME}-lib ${FILES})
 add_executable(${PROJECT_NAME} presentation.cpp)

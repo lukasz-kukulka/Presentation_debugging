@@ -190,6 +190,33 @@ Jail.cpp.s:
 	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Jail.cpp.s
 .PHONY : Jail.cpp.s
 
+Person.o: Person.cpp.o
+
+.PHONY : Person.o
+
+# target to build an object file
+Person.cpp.o:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.o
+.PHONY : Person.cpp.o
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 Prisoner.o: Prisoner.cpp.o
 
 .PHONY : Prisoner.o
@@ -260,6 +287,9 @@ help:
 	@echo "... Jail.o"
 	@echo "... Jail.i"
 	@echo "... Jail.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
 	@echo "... Prisoner.o"
 	@echo "... Prisoner.i"
 	@echo "... Prisoner.s"
