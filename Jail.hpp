@@ -12,10 +12,11 @@ class Jail {
 public:
     Jail(int posX, int posY);
     void openJail();
+    void generateData();
 
 private:
     int posX_;
     int posY_;
     std::vector<std::shared_ptr<Prisoner>>prisoners_;
-    std::list<std::shared_ptr<Prisoner>>guards_;
+    std::list<std::shared_ptr<Guard>>guards_;
 };
