@@ -10,13 +10,16 @@
 
 class Jail {
 public:
-    Jail(int posX, int posY);
+    Jail(int posX, int posY, std::string name);
     void openJail();
-    void generateData();
-
+    std::string getName() { return name_; }
+    
 private:
+    void generateData();
+    void printData();
     int posX_;
     int posY_;
+    std::string name_ { };
     std::vector<std::shared_ptr<Prisoner>>prisoners_;
     std::list<std::shared_ptr<Guard>>guards_;
 };

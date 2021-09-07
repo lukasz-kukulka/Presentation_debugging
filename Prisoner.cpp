@@ -4,13 +4,13 @@ Prisoner::Prisoner(std::string name, std::string surname, size_t age, int punish
     : Person(name, surname, age) 
     , punishment_(punishment) 
 {
-    readBooks_ = 0;
+    readBooks_ = age_ / 10;
 }
 
 std::string Prisoner::getName() {
     return "PRISONER: " + name_;
 }
 
-int Prisoner::getReadBooks() {
+size_t Prisoner::getReadBooks() {
     return readBooks_ * punishment_;
 }

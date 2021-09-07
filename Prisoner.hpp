@@ -6,9 +6,9 @@ public:
     Prisoner(std::string name, std::string surname, size_t age, int punishment);
 
     std::string getName() override;
-    int getReadBooks();
+    size_t getReadBooks();
 
 private:
-    int readBooks_;
+    size_t readBooks_;
     int punishment_ { };
 };
