@@ -10,6 +10,6 @@ std::string Guard::getName() {
     return "GUARD: " + name_;
 }
 
-int Guard::getYearToPension() {
+size_t Guard::getYearToPension() {
     return yearsToPansion_ - age_;
 }

@@ -4,5 +4,6 @@
 int main() {
     std::pair<int, int>coordination{ 20, 30 };
     Jail jail {coordination.first, coordination.second };
+    jail.openJail();
     return 0;
 }

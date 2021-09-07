@@ -5,9 +5,9 @@ class Guard : public Person {
     Guard(std::string name, std::string surname, size_t age);
 
     std::string getName() override;
-    int getYearToPension();
+    size_t getYearToPension();
 public:
 
 private:
-    int yearsToPansion_;
+    size_t yearsToPansion_;
 };

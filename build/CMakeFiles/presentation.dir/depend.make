@@ -3,6 +3,7 @@
 
 CMakeFiles/presentation.dir/presentation.cpp.o: ../Guard.hpp
 CMakeFiles/presentation.dir/presentation.cpp.o: ../Jail.hpp
+CMakeFiles/presentation.dir/presentation.cpp.o: ../Person.hpp
 CMakeFiles/presentation.dir/presentation.cpp.o: ../Prisoner.hpp
 CMakeFiles/presentation.dir/presentation.cpp.o: ../presentation.cpp
 
