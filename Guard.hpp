@@ -2,13 +2,12 @@
 #include "Person.hpp" 
 
 class Guard : public Person {
-    Guard(std::string name, std::string surname, size_t age, int punishment);
+    Guard(std::string name, std::string surname, size_t age);
 
     std::string getName() override;
-    int getReadBooks();
+    int getYearToPension();
 public:
 
 private:
-    int yearsToPansion_;
-    int punishment_;
+    int yearsToPansion_ { 67 };
 };
