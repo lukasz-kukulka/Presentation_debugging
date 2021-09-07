@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/presentation.dir/presentation.cpp.o  -o presentation 
+/bin/g++-9  -g   CMakeFiles/presentation.dir/presentation.cpp.o  -o presentation  libpresentation-lib.a 

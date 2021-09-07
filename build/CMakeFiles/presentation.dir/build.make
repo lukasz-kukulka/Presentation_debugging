@@ -60,15 +60,15 @@ include CMakeFiles/presentation.dir/flags.make
 CMakeFiles/presentation.dir/presentation.cpp.o: CMakeFiles/presentation.dir/flags.make
 CMakeFiles/presentation.dir/presentation.cpp.o: ../presentation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nanautzin/coders_school/Presentation_debugging/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/presentation.dir/presentation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/presentation.dir/presentation.cpp.o -c /home/nanautzin/coders_school/Presentation_debugging/presentation.cpp
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/presentation.dir/presentation.cpp.o -c /home/nanautzin/coders_school/Presentation_debugging/presentation.cpp
 
 CMakeFiles/presentation.dir/presentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/presentation.dir/presentation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nanautzin/coders_school/Presentation_debugging/presentation.cpp > CMakeFiles/presentation.dir/presentation.cpp.i
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nanautzin/coders_school/Presentation_debugging/presentation.cpp > CMakeFiles/presentation.dir/presentation.cpp.i
 
 CMakeFiles/presentation.dir/presentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/presentation.dir/presentation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nanautzin/coders_school/Presentation_debugging/presentation.cpp -o CMakeFiles/presentation.dir/presentation.cpp.s
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nanautzin/coders_school/Presentation_debugging/presentation.cpp -o CMakeFiles/presentation.dir/presentation.cpp.s
 
 # Object files for target presentation
 presentation_OBJECTS = \
@@ -79,6 +79,7 @@ presentation_EXTERNAL_OBJECTS =
 
 presentation: CMakeFiles/presentation.dir/presentation.cpp.o
 presentation: CMakeFiles/presentation.dir/build.make
+presentation: libpresentation-lib.a
 presentation: CMakeFiles/presentation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nanautzin/coders_school/Presentation_debugging/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable presentation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/presentation.dir/link.txt --verbose=$(VERBOSE)

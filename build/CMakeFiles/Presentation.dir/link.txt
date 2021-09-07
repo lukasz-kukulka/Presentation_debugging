@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Presentation.dir/presentation.cpp.o  -o Presentation 

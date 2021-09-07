@@ -1,2 +1,2 @@
 # Presentation_debugging
-Presentation with visula debugging in VS Code
+Presentation with visual debugging in VS Code

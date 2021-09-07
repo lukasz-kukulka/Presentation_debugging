@@ -123,6 +123,46 @@ presentation/fast:
 	$(MAKE) -f CMakeFiles/presentation.dir/build.make CMakeFiles/presentation.dir/build
 .PHONY : presentation/fast
 
+#=============================================================================
+# Target rules for targets named presentation-lib
+
+# Build rule for target.
+presentation-lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 presentation-lib
+.PHONY : presentation-lib
+
+# fast build rule for target.
+presentation-lib/fast:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/build
+.PHONY : presentation-lib/fast
+
+Person.o: Person.cpp.o
+
+.PHONY : Person.o
+
+# target to build an object file
+Person.cpp.o:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.o
+.PHONY : Person.cpp.o
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 presentation.o: presentation.cpp.o
 
 .PHONY : presentation.o
@@ -159,6 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... presentation"
+	@echo "... presentation-lib"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
 	@echo "... presentation.o"
 	@echo "... presentation.i"
 	@echo "... presentation.s"

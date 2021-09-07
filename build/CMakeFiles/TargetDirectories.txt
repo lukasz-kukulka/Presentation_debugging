@@ -1,3 +1,4 @@
 /home/nanautzin/coders_school/Presentation_debugging/build/CMakeFiles/rebuild_cache.dir
 /home/nanautzin/coders_school/Presentation_debugging/build/CMakeFiles/edit_cache.dir
 /home/nanautzin/coders_school/Presentation_debugging/build/CMakeFiles/presentation.dir
+/home/nanautzin/coders_school/Presentation_debugging/build/CMakeFiles/presentation-lib.dir
