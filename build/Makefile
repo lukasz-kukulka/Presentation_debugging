@@ -136,32 +136,32 @@ presentation-lib/fast:
 	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/build
 .PHONY : presentation-lib/fast
 
-Person.o: Person.cpp.o
+Jail.o: Jail.cpp.o
 
-.PHONY : Person.o
+.PHONY : Jail.o
 
 # target to build an object file
-Person.cpp.o:
-	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.o
-.PHONY : Person.cpp.o
+Jail.cpp.o:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Jail.cpp.o
+.PHONY : Jail.cpp.o
 
-Person.i: Person.cpp.i
+Jail.i: Jail.cpp.i
 
-.PHONY : Person.i
+.PHONY : Jail.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+Jail.cpp.i:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Jail.cpp.i
+.PHONY : Jail.cpp.i
 
-Person.s: Person.cpp.s
+Jail.s: Jail.cpp.s
 
-.PHONY : Person.s
+.PHONY : Jail.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+Jail.cpp.s:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Jail.cpp.s
+.PHONY : Jail.cpp.s
 
 presentation.o: presentation.cpp.o
 
@@ -200,9 +200,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... presentation"
 	@echo "... presentation-lib"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
+	@echo "... Jail.o"
+	@echo "... Jail.i"
+	@echo "... Jail.s"
 	@echo "... presentation.o"
 	@echo "... presentation.i"
 	@echo "... presentation.s"

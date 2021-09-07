@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(presentation)
 
 set(FILES
-    Person.cpp)
+    Jail.cpp)
 
 add_library(${PROJECT_NAME}-lib ${FILES})
 add_executable(${PROJECT_NAME} presentation.cpp)
