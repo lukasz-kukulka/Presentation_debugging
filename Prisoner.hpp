@@ -1,0 +1,5 @@
+class Prisoner {
+public:
+
+private:
+};
