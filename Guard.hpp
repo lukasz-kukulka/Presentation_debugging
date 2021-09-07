@@ -9,5 +9,5 @@ class Guard : public Person {
 public:
 
 private:
-    int yearsToPansion_ { 67 };
+    int yearsToPansion_;
 };
