@@ -136,6 +136,33 @@ presentation-lib/fast:
 	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/build
 .PHONY : presentation-lib/fast
 
+Guard.o: Guard.cpp.o
+
+.PHONY : Guard.o
+
+# target to build an object file
+Guard.cpp.o:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Guard.cpp.o
+.PHONY : Guard.cpp.o
+
+Guard.i: Guard.cpp.i
+
+.PHONY : Guard.i
+
+# target to preprocess a source file
+Guard.cpp.i:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Guard.cpp.i
+.PHONY : Guard.cpp.i
+
+Guard.s: Guard.cpp.s
+
+.PHONY : Guard.s
+
+# target to generate assembly for a file
+Guard.cpp.s:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Guard.cpp.s
+.PHONY : Guard.cpp.s
+
 Jail.o: Jail.cpp.o
 
 .PHONY : Jail.o
@@ -162,6 +189,33 @@ Jail.s: Jail.cpp.s
 Jail.cpp.s:
 	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Jail.cpp.s
 .PHONY : Jail.cpp.s
+
+Prisoner.o: Prisoner.cpp.o
+
+.PHONY : Prisoner.o
+
+# target to build an object file
+Prisoner.cpp.o:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Prisoner.cpp.o
+.PHONY : Prisoner.cpp.o
+
+Prisoner.i: Prisoner.cpp.i
+
+.PHONY : Prisoner.i
+
+# target to preprocess a source file
+Prisoner.cpp.i:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Prisoner.cpp.i
+.PHONY : Prisoner.cpp.i
+
+Prisoner.s: Prisoner.cpp.s
+
+.PHONY : Prisoner.s
+
+# target to generate assembly for a file
+Prisoner.cpp.s:
+	$(MAKE) -f CMakeFiles/presentation-lib.dir/build.make CMakeFiles/presentation-lib.dir/Prisoner.cpp.s
+.PHONY : Prisoner.cpp.s
 
 presentation.o: presentation.cpp.o
 
@@ -200,9 +254,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... presentation"
 	@echo "... presentation-lib"
+	@echo "... Guard.o"
+	@echo "... Guard.i"
+	@echo "... Guard.s"
 	@echo "... Jail.o"
 	@echo "... Jail.i"
 	@echo "... Jail.s"
+	@echo "... Prisoner.o"
+	@echo "... Prisoner.i"
+	@echo "... Prisoner.s"
 	@echo "... presentation.o"
 	@echo "... presentation.i"
 	@echo "... presentation.s"

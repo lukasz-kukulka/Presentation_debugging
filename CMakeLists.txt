@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.10)
 project(presentation)
 
 set(FILES
-    Jail.cpp)
+    Jail.cpp
+    Prisoner.cpp
+    Guard.cpp)
 
 add_library(${PROJECT_NAME}-lib ${FILES})
 add_executable(${PROJECT_NAME} presentation.cpp)
