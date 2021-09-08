@@ -3,6 +3,7 @@
 #include <vector>
 #include <memory>
 #include <list>
+#include <string>
 
 #include "Person.hpp"
 #include "Prisoner.hpp"
@@ -13,6 +14,7 @@ public:
     Jail(int posX, int posY, std::string name);
     void openJail();
     std::string getName() { return name_; }
+    void callError();
     
 private:
     void generateData();

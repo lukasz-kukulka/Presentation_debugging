@@ -37,3 +37,14 @@ void Jail::printData() {
         std::cout << "NAME: " << ele->getName() << " | SURNAME: " << ele->getSurname() << " | AGE: " << ele->getAge() << " | YEARS TO PANSION: " << ele->getYearToPension() <<'\n'; 
     }
 }
+
+void Jail::callError() {
+    std::cout << prisoners_[33].get() << '\n';
+    std::cout << prisoners_[111].get() << '\n';
+    // std::cout << prisoners_[33333].get() << '\n';
+    // std::cout << prisoners_[4444444].get() << '\n';
+    std::cout << prisoners_[33] << '\n';
+    // std::cout << prisoners_[111].get()->getAge() << '\n';
+    // std::cout << prisoners_[33333].get()->getAge() << '\n';
+    // std::cout << prisoners_[4444444].get()->getAge() << '\n';
+}
